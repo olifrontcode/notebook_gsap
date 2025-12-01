@@ -25,3 +25,31 @@ body {
         transform: rotateZ(90deg);
     }
 }
+
+.actionBtn {
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #c9c9c9;
+    border-radius: 50%;
+}
+
+@media (min-width: 968px) {
+    .actionBtn {
+        display: none;
+    }
+}
+
+.actionBtn_next {
+    top: 10px;
+    transform: rotate(-90deg);
+}
+
+.actionBtn_previous {
+    bottom: 10px;
+    transform: rotate(90deg);
+}
